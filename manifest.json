@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Hide Rapport pop-ups",
+  "description": "Hide the Rapport reminder pop-ups on the HSBC Business Banking log-in page.",
+  "version": "1.0",
+
+  "icons": {
+    "48": "icon-48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [ "https://www.business.hsbc.co.uk/1/2/!ut/*"],
+      "css": [ "hide-rapport-popups.css" ]
+    }
+  ]
+}
+
+
+
