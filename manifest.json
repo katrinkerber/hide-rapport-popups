@@ -10,7 +10,7 @@
   },
   "content_scripts": [
     {
-      "matches": [ "https://www.business.hsbc.co.uk/1/2/!ut/*"],
+      "matches": [ "https://www.business.hsbc.co.uk/*"],
       "css": [ "hide-rapport-popups.css" ]
     }
   ]
